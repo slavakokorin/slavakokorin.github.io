@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    font-family: sans-serif; /* семейство шрифта */
+    line-height: 1.5; /* Межстрочный интервал */
+  }
+
+  h1 {
+    margin-top: 50px; /* внешний отступ */
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid #e3e3e3;
+  }
+  
+  main {
+    width: 900px;
+    margin: auto;
+  }
+  
+  section {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding-top: 0; /* внутренний отступ */
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+  }
+  
+  main > section > h2 {
+    padding: 0;
+    text-align: left;
+    border: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  .got {
+    font-family: "Old English Text MT";
+  }
