@@ -21,6 +21,12 @@ body {
     border-bottom: 2px solid #e3e3e3;
   }
   
+  header {
+    width: 900px;
+    margin: auto;
+    background-color:lightgreen;
+  }
+
   main {
     width: 900px;
     margin: auto;
